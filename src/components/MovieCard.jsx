@@ -17,7 +17,7 @@ const MovieCard = ({
         <h3>{title}</h3>
         <div className="content">
           <div className="rating">
-            <img src="reactcc_public\public\star.svg" alt="Star Icon" />
+            <img src="star.svg" alt="Star Icon" />
             <p>{vote_average ? vote_average.toFixed(1) : "N/A"}</p>
           </div>
           <span className="year">{release_date ? release_date : "N/A"}</span>
